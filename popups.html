@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bill Tracker</title>
+        <meta name="description" content="Idk what I'm doing">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="popup" >
+            <div class="header">
+                <h1>
+                    Add New
+                </h1>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAmount" class="col-sm-2 control-label">Amount</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputAmount" placeholder="Amount">
+                    </div>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        I owe them
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        They owe me
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2">
+                        <button type="submit" class="btn btn-default popupBtn">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="popup" >
+            <div class="header">
+                <h1>
+                    Settle
+                </h1>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAmount" class="col-sm-2 control-label">Amount</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputAmount" placeholder="Amount">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        Full Amount
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-2 col-sm-10">
+                        <button type="submit" class="btn btn-default popupBtn">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

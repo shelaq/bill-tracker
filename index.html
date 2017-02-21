@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bill Tracker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Background pattern from Subtle Patterns -->
+    </head>
+    <body>
+        <header>
+            <h1 class="title text-uppercase">Hi</h1>
+        </header>
+        <div class="content">
+
+            <div id="mainMenu">
+                <button type="button" id="addNewButton" class="btn mainMenuButtons" data-toggle="modal" data-target="#addNewModal">Add New</button>
+
+                <a class="btn mainMenuButtons" role="button" href="allRecordsList.html">All Existing Balances</a>
+                <textarea class="">
+                </textarea>
+            </div>
+            <div class="mostRecentTransactions">
+                <a href="profile.html">
+                    <div class="summaryCard">
+                        <div class="transactionPerson owe">
+                            <strong>Joe</strong>
+                        </div>
+                        <div class="data col-sm-8">
+                            <p id="status"><strong>Status: </strong> To</p>
+                            <p id="date"><strong>As Of: </strong> Feb 4, 2017</p>
+                        </div>
+                        <div class="balance col-sm-4">
+                            $15.67
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div id="addNewModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal content-->
+                    <div class="modal-header">
+                        <h1 class="modal-title  col-sm-8">
+                            Add New
+                        </h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="inputName" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAmount" class="col-sm-2 control-label">Amount</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputAmount" placeholder="Amount">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputTopic" class="col-sm-2 control-label">Reason</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputTopic" placeholder="Reason">
+                                </div>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                    I owe them
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    They owe me
+                                </label>
+                            </div>  
+                            <div class="form-group">
+                                <div class="col-sm-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default popupBtn">Save</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+
+</html>

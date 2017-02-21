@@ -1,0 +1,207 @@
+body {
+    background-image: url("../images/gplaypattern.png");
+    background-color: #cccccc;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+header{
+    width:80%;
+    margin: auto;
+    padding: 10px;
+    border-radius:8px;
+    text-align:center;
+    height:100px;
+    margin-bottom:20px;
+}
+
+a, a:hover, a:visited, a:link, a:active{
+    color:#272b33;
+    text-decoration:none !important;
+}
+
+header > h1{
+    font-size:70px;
+}
+
+p{
+    margin:0px;
+}
+
+.title{
+    padding: 10px auto;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top:20px;
+    width: 80%;
+    height:100%;
+    padding: 0px 10px 0px 10px;
+}
+
+
+#mainMenu{
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.mainMenuButtons{
+    background-color:aquamarine;
+    padding: 15px 15px;
+    display: block;
+    font-size:25px;
+    color:#272b33;
+    width: 400px;
+    margin:auto;
+    margin-bottom: 10px;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+}
+.mainMenuButtons:hover{
+    background-color: paleturquoise;
+    color: black;
+}
+
+textarea{
+    display:block;
+    margin:auto;
+    background: transparent;
+    width:400px;
+    height:150px;
+}
+
+
+.profileTitle{
+    color: white;
+    text-align: center;
+}
+
+.specificMenu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.specificMenuButtons{
+    background-color:#ffe4c4;
+    padding: 15px 15px;
+    text-align: center;
+    display: block;
+    font-size:20px;
+    border-radius: 8px;
+    border-style:solid;
+    border-width:2px;
+    border-color: #e7cfb2;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+.specificMenuButtons:hover{
+    background-color:#ffebd4;
+}
+
+
+.summaryCard{
+    background-color:white;
+    border-width:2.5px;
+    border-style:solid;
+    border-color:black;
+    height:130px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.summaryCard .transactionPerson{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    padding-left: 15px;
+    padding-top:5px;
+    font-size: 25px;
+}
+
+.summaryCard .transactionTopic{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    padding-left: 15px;
+    padding-top:5px;
+    font-size: 25px;
+}
+
+.summaryCard .data{
+    padding-left: 15px;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.summaryCard .balance{
+    padding-left: 10px;
+    padding-top:10px;
+    text-align:right;
+    font-size:40px;
+}
+
+.summaryCard .totalBalance{
+    font-size: 50px;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    padding-top:10px;
+    margin-bottom:5px;
+}
+.summaryCard .totalBalanceStatus{
+    font-size: 20px;
+    text-align:center;
+}
+
+.owe{background-color:#FFC3B9;}
+
+.owedFrom{background-color:aquamarine;}
+
+.settling{background-color:#CCC8C1;}
+
+.settled{
+    background-color:white;
+    color: lightsteelblue;
+    border-color:gray;
+}
+
+.modal-dialog{
+    color:black;
+    width:500px;
+    height:400px;
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    border-radius:8px;
+}
+
+.modal-header{
+    background-color:aquamarine;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-body{
+    height:310px;
+}
+
+form{
+    padding:20px;
+}
+
+.control-label{
+    font-size:15px;
+}
+
+.popupBtn{
+    margin-top:20px;
+    width:150px;
+}
